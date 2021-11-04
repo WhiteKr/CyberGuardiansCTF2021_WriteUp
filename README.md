@@ -1,7 +1,11 @@
 # 2021 사이버 가디언즈 CTF 예선전
 해결한 문제들의 풀이과정 설명을 위한 Repo입니다.
 
+
+
 ## A. security-quiz
+
+
 
 ## C. easy-exe
 ![C1](./images/C1.png)
@@ -14,6 +18,8 @@ ollydbg, ida, x64dbg를 사용해보았는데, 본 문제를 풀기위하여 x64
 디버깅을 시작하고 가능한한 모든 함수과정에 breakpoint를 찍어 함수의 작동과정을 공부하게 되었고, 가능한한 최대한 많이 메모리에 있는 문자열을 읽었습니다.\
 그 결과 아래에 있던 것처럼 플래그 값을 찾을 수 있었고 문제 해결에 성공할 수 있었습니다.\
 ![C2](./images/C2.png)
+
+
 
 ## D. integer_overflow_1
 ![D1](./images/D1.png)
@@ -30,5 +36,7 @@ if(floor_index > 100){
 }
 ```
 층수가 100이 넘어가게 되어 `cat flag.txt` 명령이 실행되었고 문제를 해결했습니다.
+
+
 
 ## G. dreamcafe

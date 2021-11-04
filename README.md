@@ -40,7 +40,3 @@ if(floor_index > 100){
 }
 ```
 층수가 100이 넘어가게 되어 `cat flag.txt` 명령이 실행되었고 문제를 해결했습니다.
-
-
-
-## G. dreamcafe

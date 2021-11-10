@@ -6,7 +6,7 @@
 ## E. Javascript_sourcemap
 ![E1](images/E1.png)
 제목 그대로 JavaScript Sourcemap을 이용한 문제입니다.\
-웹페이지 소스코드에서 js 파일 주소를 찾아 Sourcemap으로 연결된 파일의 경로를 알아내었습니다.\
+웹페이지 소스코드에서 js 파일 주소를 찾아 Sourcemap으로 연결된 파일의 경로를 알아내었습니다.
 
 이후 해당 경로로 접속해 library.js.map 파일을 다운로드 받을 수 있었고\
 안쪽에 flag를 출력해주는 함수가 작성되어 있었습니다.\
